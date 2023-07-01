@@ -14,22 +14,37 @@ var $_GET = (function () {
   }
 })();
 function checkWebSiteOnline(config) {
-  var img = new Image();
-  img.onload = function () {
-    if (typeof config.success == "function") config.success(config.url);
-  };
-  img.onerror = function () {
-    if (typeof config.error == "function") config.error(config.url);
-  };
-  img.src = config.url + (config.isImage ? "" : "/favicon.ico");
+  function getURL(url) {
+    function getXmlHttpRequest() {
+      if (window.XMLHttpRequest) {
+        return new XMLHttpRequest();
+      } else if (window.ActiveXObject) {
+        return new ActiveXObject("Microsoft.XMLHTTP");
+      }
+    }
+    var xmlhttp = getXmlHttpRequest();
+    xmlhttp.open("GET", url, false); //第三个参数表示是否异步
+    xmlhttp.send();
+    if (xmlhttp.readyState == 4) {
+      if (xmlhttp.status == 200) {
+        return true;
+      } else {
+        return false;
+      }
+    }
+  }
+  getURL(config.url)&&config.success()||config.ertor();
 }
-$_GET['keep']=='1'&&checkWebSiteOnline({
-  url: "https://blog.genouka.rr.nu",
-  success: function (url) {
-    window.confirm("Rare系列的新网站可以访问，要跳转吗？") &&
-      window.location.replace("https://blog.genouka.rr.nu/Rare-xi-lie-ye-mian");
-  },
-  error: function (url) {
-    alert(url + "无法访问");
-  },
-});
+$_GET["keep"] != "1" &&
+  checkWebSiteOnline({
+    url: "https://blog.genouka.rr.nu",
+    success: function (url) {
+      window.confirm("Rare系列的新网站可以访问，要跳转吗？") &&
+        window.location.replace(
+          "https://blog.genouka.rr.nu/Rare-xi-lie-ye-mian"
+        );
+    },
+    error: function (url) {
+      alert(url + "无法访问");
+    },
+  });
