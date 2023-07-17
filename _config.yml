@@ -4,9 +4,9 @@ description: 打造最棒的手表应用
 copyright  : © 2023 - 2023 genouka All Rights Reserved
 
 nav:
- - name: 下载
+ - name: 应用
    link: /
- - name: 关于
-   link: /about/
+ - name: 联系
+   link: /lianxi/
  - name: 友链
    link: /link/

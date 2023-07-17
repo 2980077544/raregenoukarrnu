@@ -1,4 +1,5 @@
 **☀️ 打造手表系列，共建手表生态！☀️**
+
 **不仅仅是WearOS手表，让其他Android手表也有更好的使用体验！**
 
 [不想看介绍，我要看软件列表](#本系列软件)
@@ -22,20 +23,26 @@
 
 * [RareBox](/rarebox)
   > 为手表打造的调试工具箱
+
 * [Rare浏览器](https://rare.genouka.rr.nu/rarebrowser)
   > 手表上好用的浏览器
+
 * [Rare翻译](https://rare.genouka.rr.nu/rarefanyi/)
   > 手表上简单快速的翻译软件
+
 * ~~Rare小说~~（正在制作中，敬请期待）
   > 手表上的在线/离线小说阅读器
+
 * ~~Rare视频~~（正在制作中，敬请期待）
   > 力争打造手表上最棒的视频播放器
+
 * [Rare商店](https://rare.genouka.rr.nu/rareshop/)
   > 手表上下载应用的新兴应用商店。<span style="color:red">目前仅在QQ群和QQ频道开放内测，官网暂未开放下载！</span>
+
 * [RareClean](https://rare.genouka.rr.nu/rareclean/)
   > 超级好用的释放手表后台和空间的软件！让低性能的手表使用起来瞬间轻松。
-  > 
-# 其他非本系列软件
+
+## 其他非本系列软件
 * [质感文件(Wear)](http://mobvoi-search-public.mobvoi.com/mobvoi-apk/awch/wear.android.files_31_wear_x86_64,x86,armeabi-v7a,arm64-v8a_16b29cf1636d8680ae956af1da05346a.apk)
  > 不是Rare计划的一部分，但它是Rare计划官方最推荐在手表上使用的开源文件管理器
 

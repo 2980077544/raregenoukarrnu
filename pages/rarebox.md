@@ -55,7 +55,7 @@ https://www.bilibili.com/video/BV1zk4y177Kg/
 
 加入[QQ群/QQ频道](/lianxi)查看。
 
-[点击查看常见问题解答](https://blog.genouka.rr.nu/RareBox-chang-jian-wen-ti-jie-da)
+[点击查看常见问题解答](/rareboxproblem)
 
 ## 赞助
 
