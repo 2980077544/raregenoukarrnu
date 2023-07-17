@@ -1,3 +1,8 @@
+---
+description: RareBox
+permalink: /rarebox/
+---
+
 **你没有走错！这就是RareBox新版官方页面**
 
 [👉不想听作者啰嗦，我要看下载链接/使用教程](#目前的下载和安装渠道)

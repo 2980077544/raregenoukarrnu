@@ -1,1 +1,12 @@
-theme: minima
+title      : Rare计划官网
+lang       : zh
+description: 打造最棒的手表应用
+copyright  : © 2023 - 2023 genouka All Rights Reserved
+
+nav:
+ - name: 下载
+   link: /
+ - name: 关于
+   link: /about/
+ - name: 友链
+   link: /link/

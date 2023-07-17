@@ -1,3 +1,7 @@
+---
+description: RareBox常见问题解答
+permalink: /rareboxproblem/
+---
 以下是常见的问题。
 ## 为什么用不了？
 **先打开adb调试和WLAN调试功能。**
