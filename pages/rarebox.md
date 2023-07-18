@@ -2,10 +2,11 @@
 description: RareBox
 permalink: /rarebox/
 ---
+# RareBox
 
 **你没有走错！这就是RareBox新版官方页面**
 
-[👉不想听作者啰嗦，我要看下载链接/使用教程](#目前的下载和安装渠道)
+[不想听作者啰嗦，我要看下载链接/使用教程](#目前的下载和安装渠道)
 RareBox是适用于很多穿戴设备调试的通用调试工具箱软件。
 
 ## 目前支持并适配的设备
@@ -41,8 +42,6 @@ RareBox是适用于很多穿戴设备调试的通用调试工具箱软件。
 
 ## 介绍视频
 
-https://www.bilibili.com/video/BV1zk4y177Kg/
-
 [欢迎来三连+关注，点击查看视频详情页](https://www.bilibili.com/video/BV1zk4y177Kg/)
 
 ## 本站下载
@@ -50,8 +49,12 @@ https://www.bilibili.com/video/BV1zk4y177Kg/
 [2.6.0暑假版下载](http://mobvoi-search-public.mobvoi.com/mobvoi-apk/awch/com.yuanwow.adb_18_wear_all_715fb03eacddb11e9e25e120eca96b7a.apk)
 本版本于2023-7-18发布。
 
+**以下为历史版本*
+
 [2.5.1儿童节版下载](http://mobvoi-search-public.mobvoi.com/mobvoi-apk/awch/com.yuanwow.adb_17_wear_all_b1506c454d83bb0be13abb045d10b1cb.apk)
 本版本于2023-6-3发布。
+
+更早的版本不再提供。
 
 ## 教程
 
