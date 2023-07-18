@@ -47,6 +47,8 @@ https://www.bilibili.com/video/BV1zk4y177Kg/
 
 ## 本站下载
 
+[2.6.0暑假版下载](http://mobvoi-search-public.mobvoi.com/mobvoi-apk/awch/com.yuanwow.adb_18_wear_all_715fb03eacddb11e9e25e120eca96b7a.apk)
+本版本于2023-7-18发布。
 
 [2.5.1儿童节版下载](http://mobvoi-search-public.mobvoi.com/mobvoi-apk/awch/com.yuanwow.adb_17_wear_all_b1506c454d83bb0be13abb045d10b1cb.apk)
 本版本于2023-6-3发布。
