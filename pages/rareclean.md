@@ -29,7 +29,7 @@ RareClean是适用于很多穿戴设备的后台清理软件。
 
 ## 介绍视频
 
-[欢迎来三连+关注，点击查看视频详情页](https://www.bilibili.com/video/AV488623632/)
+[欢迎来三连+关注，点击查看视频详情页](https://www.bilibili.com/video/av488623632/)
 
 ## 本站下载
 

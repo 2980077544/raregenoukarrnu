@@ -30,7 +30,7 @@ Rare翻译是适用于大多数穿戴设备的联网翻译软件。
 
 ## 介绍视频
 
-[欢迎来三连+关注，点击查看视频详情页](https://www.bilibili.com/video/AV781562392/)
+[欢迎来三连+关注，点击查看视频详情页](https://www.bilibili.com/video/av781562392/)
 
 ## 本站下载
 

@@ -55,7 +55,7 @@ Rare浏览器是专为穿戴设备设计的浏览器软件。
 
 ## 介绍视频
 
-[欢迎来三连+关注，点击查看视频详情页](https://www.bilibili.com/video/AV488623632/)
+[欢迎来三连+关注，点击查看视频详情页](https://www.bilibili.com/video/av488623632/)
 
 ## 本站下载
 
