@@ -39,6 +39,17 @@
       {{ content }}
 
       </section>
+      <hr>
+      <h1>友情链接</h1>
+      {% for item in site.links %}
+          {% if page.url == item.link %}
+              <p><a href="{{ item.link }}">
+                <strong>{{ item.name }}</strong>
+              </a></p>
+          {% else %}
+            <p><a href="{{ item.link }}">{{ item.name }}</a></p>
+          {% endif %}
+        {% endfor %}
     </div>
     
     <footer>
