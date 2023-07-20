@@ -38,7 +38,6 @@
 
       {{ content }}
 
-      </section>
       <hr>
       <h1>友情链接</h1>
       {% for item in site.links %}
@@ -50,6 +49,9 @@
             <p><a href="{{ item.link }}">{{ item.name }}</a></p>
           {% endif %}
         {% endfor %}
+        
+      </section>
+
     </div>
     
     <footer>
