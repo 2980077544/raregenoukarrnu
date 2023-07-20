@@ -21,13 +21,25 @@
 
 ## 本系列软件
 
-* [RareBox](/rarebox)
-  > 为手表打造的调试工具箱
+以下是图标含义说明：
 
-* [Rare浏览器](https://rare.genouka.rr.nu/rarebrowser)
+<i class="mdui-icon material-icons">watch</i>兼容WearOS手表
+
+<i class="mdui-icon material-icons">android</i>兼容Android手表
+
+<i class="mdui-icon material-icons">phone_android</i>兼容Android手机
+
+<i class="mdui-icon material-icons">desktop_windows</i>兼容Windows系统
+
+<i class="mdui-icon material-icons">warning</i>可能具有一定的操作危险性
+
+* [RareBox](/rarebox) <i class="mdui-icon material-icons">watch</i><i class="mdui-icon material-icons">android</i><i class="mdui-icon material-icons">phone_android</i><i class="mdui-icon material-icons">warning</i>
+  > 一个专为手表打造的工具箱
+
+* [Rare浏览器](https://rare.genouka.rr.nu/rarebrowser) <i class="mdui-icon material-icons">watch</i><i class="mdui-icon material-icons">android</i><i class="mdui-icon material-icons">phone_android</i>
   > 手表上好用的浏览器
 
-* [Rare翻译](https://rare.genouka.rr.nu/rarefanyi/)
+* [Rare翻译](https://rare.genouka.rr.nu/rarefanyi/) <i class="mdui-icon material-icons">watch</i><i class="mdui-icon material-icons">android</i><i class="mdui-icon material-icons">phone_android</i>
   > 手表上简单快速的翻译软件
 
 * ~~Rare小说~~（正在制作中，敬请期待）
@@ -36,14 +48,14 @@
 * ~~Rare视频~~（正在制作中，敬请期待）
   > 力争打造手表上最棒的视频播放器
 
-* [Rare商店](https://rare.genouka.rr.nu/rareshop/)
+* [Rare商店](https://rare.genouka.rr.nu/rareshop/) <i class="mdui-icon material-icons">watch</i><i class="mdui-icon material-icons">android</i><i class="mdui-icon material-icons">phone_android</i>
   > 手表上下载应用的新兴应用商店。<span style="color:red">目前仅在QQ群和QQ频道开放内测，官网暂未开放下载！</span>
 
-* [RareClean](https://rare.genouka.rr.nu/rareclean/)
+* [RareClean](https://rare.genouka.rr.nu/rareclean/) <i class="mdui-icon material-icons">watch</i><i class="mdui-icon material-icons">android</i><i class="mdui-icon material-icons">phone_android</i>
   > 超级好用的释放手表后台和空间的软件！让低性能的手表使用起来瞬间轻松。
 
 ## 其他非本系列软件
-* [质感文件(Wear)](http://mobvoi-search-public.mobvoi.com/mobvoi-apk/awch/wear.android.files_31_wear_x86_64,x86,armeabi-v7a,arm64-v8a_16b29cf1636d8680ae956af1da05346a.apk)
+* [质感文件(Wear)](http://mobvoi-search-public.mobvoi.com/mobvoi-apk/awch/wear.android.files_31_wear_x86_64,x86,armeabi-v7a,arm64-v8a_16b29cf1636d8680ae956af1da05346a.apk) <i class="mdui-icon material-icons">watch</i><i class="mdui-icon material-icons">android</i><i class="mdui-icon material-icons">phone_android</i>
  > 不是Rare计划的一部分，但它是Rare计划官方最推荐在手表上使用的开源文件管理器
 
 ## 捐助
