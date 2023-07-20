@@ -41,6 +41,7 @@
     </div>
     
     <footer>
+      <p>{{ site.extra | default: "extra not found in _config.yml" }}</p>
       <p>{{ site.copyright | default: "copyright not found in _config.yml" }}</p>
     </footer>
     
