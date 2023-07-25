@@ -3,6 +3,7 @@ lang       : zh
 description: 打造最棒的手表应用
 copyright  : © 2023 - 2023 genouka All Rights Reserved
 extra      : 本网站属于非盈利性质网站，不进行任何商业经营活动。
+markdown:kramdown
 
 nav:
  - name: 应用

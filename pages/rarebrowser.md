@@ -59,10 +59,28 @@ Rare浏览器是专为穿戴设备设计的浏览器软件。
 
 [欢迎来三连+关注，点击查看视频详情页](https://www.bilibili.com/video/av488623632/)
 
-## 本站下载
+## 本站下载（以下均为免费版本）
+
+收费版本请在小问商店或[联系作者](/lianxi/)获得。
+
+* 2.4版本下载
+
+```
+包名：com.yuanwow.rarebrowser
+版本号：2.4 (9)
+应用大小：25.19M (26418424)
+最小支持SDK：21
+目标SDK版本：26
+修改时间：2023年7月25日 23:01:35
+
+```
+<details markdown='1'><summary>历史版本下载</summary>
+
 
 * ~~2.3试用版下载~~
 
+
+```
 有严重bug，停止下载
 
 最低API 19
@@ -72,10 +90,16 @@ Rare浏览器是专为穿戴设备设计的浏览器软件。
 26.84 MB
 
 本版本于2023-7-18发布。
+```
+
 
 * [1.2经典版下载](http://mobvoi-search-public.mobvoi.com/mobvoi-apk/awch/com.yuanwow.rarebrowser_4_wear_armeabi-v7a_61fdf4b5c7f742f0d4b0fe360d63715a.apk)
 
+
+```
 本版本于2023-4-15发布。
+```
+</details>
 
 ## 教程
 
