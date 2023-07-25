@@ -47,6 +47,9 @@ RareBox是适用于很多穿戴设备调试的通用调试工具箱软件。
 ## 本站下载
 
 [2.6.0暑假版下载](http://mobvoi-search-public.mobvoi.com/mobvoi-apk/awch/com.yuanwow.adb_18_wear_all_715fb03eacddb11e9e25e120eca96b7a.apk)
+最低API21
+目标API26
+774 kB
 本版本于2023-7-18发布。
 
 **以下为历史版本*

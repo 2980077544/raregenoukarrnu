@@ -7,8 +7,10 @@ permalink: /rarebrowser/
 [不想听作者啰嗦，我要看下载链接/使用教程](#目前的下载和安装渠道)
 Rare浏览器是专为穿戴设备设计的浏览器软件。
 
+<span style="color:red">本站只发布Rare浏览器免费版，不发布也不售卖RarePro浏览器(即Rare浏览器收费版)下载，关于收费版的问题请联系作者或加QQ频道咨询。</span>
+
 ## 目前支持并适配的设备
-* 所有支持WLAN调试的WearOS或Android手表
+* 几乎所有WearOS或Android手表
 
 ## 目前的下载和安装渠道
 * 小问应用商店（问问品牌手表可以直接下载）
@@ -17,7 +19,7 @@ Rare浏览器是专为穿戴设备设计的浏览器软件。
 * 官方QQ频道 https://pd.qq.com/s/6btddnc8n
 * Bilibili: Genouka
 
-**请不要从其他渠道下载本软件，由于本软件获取的权限较高，其他渠道下载的软件可能有病毒或者木马，由此引起的一切损失和责任一律与本开发者无关！！！**
+**请不要从其他渠道下载本软件，其他渠道下载的软件可能有病毒或者木马，由此引起的一切损失和责任一律与本开发者无关！！！**
 
 ## 软件的版权和费用问题
 * 本软件（包括但不限于免费版和收费版）完全由开发者所有并保留一切权利，向用户开放使用权。
@@ -59,10 +61,20 @@ Rare浏览器是专为穿戴设备设计的浏览器软件。
 
 ## 本站下载
 
-[Pro2.3试用版下载](http://mobvoi-search-public.mobvoi.com/mobvoi-apk/awch/com.yuanwow.rareclean_4_wear_all_c5b9cbb412ee01c0a10a43dc70997d6e.apk)
+* ~~2.3试用版下载~~
+
+有严重bug，停止下载
+
+最低API 19
+
+目标API 26
+
+26.84 MB
+
 本版本于2023-7-18发布。
 
-[1.2经典版下载](http://mobvoi-search-public.mobvoi.com/mobvoi-apk/awch/com.yuanwow.rarebrowser_4_wear_armeabi-v7a_61fdf4b5c7f742f0d4b0fe360d63715a.apk)
+* [1.2经典版下载](http://mobvoi-search-public.mobvoi.com/mobvoi-apk/awch/com.yuanwow.rarebrowser_4_wear_armeabi-v7a_61fdf4b5c7f742f0d4b0fe360d63715a.apk)
+
 本版本于2023-4-15发布。
 
 ## 教程
