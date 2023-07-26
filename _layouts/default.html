@@ -12,7 +12,8 @@
     
     <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script src="/assets/js/toc.js" type="text/javascript"></script>
   </head>
   <body>
     <div class="wrapper">
@@ -35,6 +36,7 @@
         </ul>
       </header>
       <section>
+<div id="toc"></div>
 
       {{ content }}
 
@@ -60,6 +62,12 @@
     </footer>
     
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+<script type="text/javascript">
+$(document).ready(function() {
+    $('#toc').toc();
+});
+</script>
+<script src="https://unpkg.com/mdui@1.0.2/dist/js/mdui.min.js"></script>
 
   </body>
 
