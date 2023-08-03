@@ -3,6 +3,18 @@ description: 联系方式
 permalink: /lianxi/
 ---
 # 联系方式
-* 官方QQ群 652100205
-* 官方QQ频道 https://pd.qq.com/s/6btddnc8n
-* Bilibili: Genouka
+* 官方QQ群 
+  * 表表表表表交流群
+    * 链接：[点击加入](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=NKfOjiRZj3lVpb8QHrIEUheNSUxeYOPD&authKey=zHjWBRMIsSEAW%2FZnJXjfXQE4fVV8Ua0%2FYPUzs%2FONKEs6Ye9NP6FLq8y39mlFtWvx&noverify=0&group_code=652100205)
+    * 群号：652100205
+* 官方QQ频道
+  * Rare计划
+    * 链接：[点击加入](https://pd.qq.com/s/6btddnc8n)
+    * 频道号：rareplan23
+* 哔哩哔哩
+  * Genouka
+    * UID：3493116076100126
+    * [我的空间](https://space.bilibili.com/3493116076100126)
+    * 三连的人会有好运哦！
+* 邮箱
+  * 2980077544$qq.com($换为@)

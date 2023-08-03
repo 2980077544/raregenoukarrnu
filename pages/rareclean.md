@@ -33,10 +33,12 @@ RareClean是适用于很多穿戴设备的后台清理软件。
 
 ## 本站下载
 
+加入QQ频道获取最新版本
+
+<details markdown='1'><summary>历史版本下载</summary>
+
 [1.3版下载](http://mobvoi-search-public.mobvoi.com/mobvoi-apk/awch/com.yuanwow.rareclean_5_wear_all_83ea8575e5d863b7ed9b4be61884652c.apk)
 本版本于2023-7-18发布。
-
-**以下是历史版本**
 
 [1.2.1版下载](http://mobvoi-search-public.mobvoi.com/mobvoi-apk/awch/com.yuanwow.rareclean_4_wear_all_c5b9cbb412ee01c0a10a43dc70997d6e.apk)
 最低API21
@@ -46,6 +48,8 @@ RareClean是适用于很多穿戴设备的后台清理软件。
 
 [1.2版下载](http://mobvoi-search-public.mobvoi.com/mobvoi-apk/awch/com.yuanwow.rareclean_3_wear_all_6fa3cafed42f71d0c946a089c7b54116.apk)
 本版本于2023-7-1发布。
+
+</details>
 
 ## 教程
 

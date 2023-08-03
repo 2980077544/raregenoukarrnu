@@ -34,6 +34,8 @@ Rare翻译是适用于大多数穿戴设备的联网翻译软件。
 
 ## 本站下载
 
+**教程就在下面一点点**
+
 [1.0版下载](http://mobvoi-search-public.mobvoi.com/mobvoi-apk/awch/yuanwow.rare.fanyi_1_wear_all_8be34a168e78b02c04b437bc69558736.apk)
 本版本于2023-3-30发布。
 
@@ -42,13 +44,6 @@ Rare翻译是适用于大多数穿戴设备的联网翻译软件。
 加入[QQ群/QQ频道](/lianxi)查看。
 
 [点击查看常见问题解答](/rareboxproblem)
-
-## 赞助
-
-当然如果你愿意，可以打赏一点啦！
-
-
-![微信赞赏码](http://i.imgloc.com/2023/03/18/LvZkF.png)
 
 ## 联系方式
 [点击查看](/lianxi)
