@@ -65,7 +65,7 @@ Rare浏览器是专为穿戴设备设计的浏览器软件。
 
 收费版本请在小问商店或[联系作者](/lianxi/)获得。
 
-* 2.4版本下载
+* [2.4版本下载](http://mobvoi-search-public.mobvoi.com/mobvoi-apk/awch/com.yuanwow.rarebrowser_9_wear_armeabi-v7a_29d41d30c56cff0ca0f36ff328542424.apk)
 
 ```
 包名：com.yuanwow.rarebrowser
