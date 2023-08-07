@@ -52,13 +52,43 @@ RareBox是适用于很多穿戴设备调试的通用调试工具箱软件。
 774 kB
 本版本于2023-7-18发布。
 
-**以下为历史版本*
+**以下为历史版本**
 
 [2.5.1儿童节版下载](http://mobvoi-search-public.mobvoi.com/mobvoi-apk/awch/com.yuanwow.adb_17_wear_all_b1506c454d83bb0be13abb045d10b1cb.apk)
 本版本于2023-6-3发布。
 
 更早的版本不再提供。
 
+## 开发者指南
+在你的代码中调用以下函数就能安装应用了！
+```java
+    /**
+     * 通过RareBox安装应用
+     * @Param context 界面上下文，只能传入Activity的派生类。
+     * @Param filepath 应用绝对路径(千万注意路径不要有空格)，示例："/sdcard/app.apk"
+     * @Author Genouka
+     * @Date 2023-08-07
+     */
+    public void InstallByRareBox(final Activity context,final String filepath){
+        context.runOnUiThread(new Runnable(){
+                @Override
+                public void run() {
+                    ClipboardManager cm = (ClipboardManager) context.getSystemService(Context.CLIPBOARD_SERVICE);
+                    ClipData mClipData = ClipData.newPlainText("Label",filepath);
+                    cm.setPrimaryClip(mClipData);
+                    Toast.makeText(context,"已将文件路径复制到剪贴板，请在RareBox中安装！",Toast.LENGTH_LONG).show();
+                    PackageManager packageManager = context.getPackageManager();
+                    Intent it = packageManager.getLaunchIntentForPackage("com.yuanwow.adb");
+                    if (it.resolveActivity(context.getPackageManager()) != null) {
+                        context.startActivity(it);
+                    }else{
+                        new AlertDialog.Builder(context).setTitle("警告").setMessage("您的手表未安装RareBox，请前往Rare计划官网获得帮助：rare.genouka.rr.nu").create().show();
+                    }
+                }
+            });
+    }
+```
+用kotlin或者其他语言的童鞋自己照着改吧！
 ## 教程
 
 加入[QQ群/QQ频道](/lianxi)查看。

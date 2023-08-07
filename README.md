@@ -42,13 +42,13 @@
 </details>
 
 
-* [RareBox](/rarebox) <i class="mdui-icon material-icons">watch</i><i class="mdui-icon material-icons">android</i><i class="mdui-icon material-icons">phone_android</i><i class="mdui-icon material-icons">warning</i>
+* [RareBox详情页](/rarebox) <i class="mdui-icon material-icons">watch</i><i class="mdui-icon material-icons">android</i><i class="mdui-icon material-icons">phone_android</i><i class="mdui-icon material-icons">warning</i>
   > 一个专为手表打造的工具箱，支持安装应用、修改dpi。配合Rare浏览器和Rare商店食用更佳！
 
-* [Rare浏览器](https://rare.genouka.rr.nu/rarebrowser) <i class="mdui-icon material-icons">watch</i><i class="mdui-icon material-icons">android</i><i class="mdui-icon material-icons">phone_android</i>
+* [Rare浏览器详情页](https://rare.genouka.rr.nu/rarebrowser) <i class="mdui-icon material-icons">watch</i><i class="mdui-icon material-icons">android</i><i class="mdui-icon material-icons">phone_android</i>
   > 手表上好用的浏览器
 
-* [Rare翻译](https://rare.genouka.rr.nu/rarefanyi/) <i class="mdui-icon material-icons">watch</i><i class="mdui-icon material-icons">android</i><i class="mdui-icon material-icons">phone_android</i>
+* [Rare翻译详情页](https://rare.genouka.rr.nu/rarefanyi/) <i class="mdui-icon material-icons">watch</i><i class="mdui-icon material-icons">android</i><i class="mdui-icon material-icons">phone_android</i>
   > 手表上简单快速的翻译软件
 
 * ~~Rare小说~~（正在制作中，鸽子精了，别催，催了也没用）
@@ -57,10 +57,10 @@
 * ~~Rare视频~~（快了快了，容我再鸽一会）
   > 力争打造手表上最棒的视频播放器
 
-* [Rare商店](https://rare.genouka.rr.nu/rareshop/) <i class="mdui-icon material-icons">watch</i><i class="mdui-icon material-icons">android</i><i class="mdui-icon material-icons">phone_android</i>
+* [Rare商店详情页](https://rare.genouka.rr.nu/rareshop/) <i class="mdui-icon material-icons">watch</i><i class="mdui-icon material-icons">android</i><i class="mdui-icon material-icons">phone_android</i>
   > 手表上下载应用的新兴应用商店。<span style="color:green">已经开放下载了！</span>
 
-* [RareClean](https://rare.genouka.rr.nu/rareclean/) <i class="mdui-icon material-icons">watch</i><i class="mdui-icon material-icons">android</i><i class="mdui-icon material-icons">phone_android</i>
+* [RareClean详情页](https://rare.genouka.rr.nu/rareclean/) <i class="mdui-icon material-icons">watch</i><i class="mdui-icon material-icons">android</i><i class="mdui-icon material-icons">phone_android</i>
   > 超级好用的释放手表后台和空间的软件！让低性能的手表使用起来瞬间轻松。
 
 ## 其他软件
