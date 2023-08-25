@@ -7,6 +7,8 @@
     {% seo %}
     
     <link rel="stylesheet" href="https://unpkg.com/mdui@1.0.2/dist/css/mdui.min.css"/>
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="manifest" href="/pwa/manifest.json">
     <link rel="icon" href="" type="image/x-icon" title="genouka">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     
@@ -69,6 +71,16 @@
 $(document).ready(function() {
     $('#toc').toc();
 });
+</script>
+
+<script type="text/javascript">
+    if(navigator.serviceWorker){
+        // For security reasons, a service worker can only control the pages that are in the same directory level or below it. That's why we put sw.js at ROOT level.
+        navigator.serviceWorker
+            .register('/sw.js')
+            .then((registration) => {console.log('Service Worker Registered. ', registration)})
+            .catch((error) => {console.log('ServiceWorker registration failed: ', error)})
+    }
 </script>
 <script src="https://unpkg.com/mdui@1.0.2/dist/js/mdui.min.js"></script>
 

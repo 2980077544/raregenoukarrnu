@@ -1,0 +1,27 @@
+---
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    {% for post in site.pages %}
+    <url>
+        <loc>{{ site.url }}{{ post.url | remove: 'index.html' }}</loc> {% if post.sitemap.lastmod %}
+        <lastmod>{{ post.sitemap.lastmod | date: "%Y-%m-%d" }}</lastmod> {% elsif post.date %}
+        <lastmod>{{ post.date | date_to_xmlschema }}</lastmod> {% else %}
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod> {% endif %}
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url> {% endfor %}
+    {% for page in site.pages %} {% if page.layout != nil %} {% if page.layout != 'redirect' %}
+    <url>
+        <loc>{{ site.url }}{{ page.url | remove: 'index.html' }}</loc> {% if page.sitemap.lastmod %}
+        <lastmod>{{ page.sitemap.lastmod | date: "%Y-%m-%d" }}</lastmod> {% elsif page.date %}
+        <lastmod>{{ page.date | date_to_xmlschema }}</lastmod> {% else %}
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod> {% endif %}
+        <changefreq>weekly</changefreq> {% assign uri_array = page.url | remove: 'index.html' | split: "/" %}{% assign cata1 = uri_array.last | slice: 0,4 %} {% assign cata2 = uri_array.last | slice: -4,4 %} {% if page.url == '/' %}
+        <priority>1</priority> {% elsif uri_array.size > 2 %}
+        <priority>0.2</priority> {% elsif cata1 == 'page' %}
+        <priority>0.1</priority> {% elsif cata2 == 'html' %}
+        <priority>1</priority> {% else %}
+        <priority>0.3</priority> {% endif %}
+    </url> {% endif %} {% endif %} {% endfor %}
+</urlset>

@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <title>跳转</title>
+    <!--[if IE]>
+      <script src="https://www.zhangxinxu.com/wordpress/2018/08/js-base64-atob-btoa-encode-decode/base64-polyfill.js"></script>
+    <![endif]-->
+    <script>
+      function jumpurl(){
+          document.getElementById("url").value="https://rare.genouka.rr.nu/go/to.html?from=yuanwow#"+window.btoa(document.getElementById("code").value);
+　  　}
+      function copy(){
+        document.getElementById("url").select();
+        document.execCommand('copy');
+      }
+    </script>
+  </head>
+  <body>
+    <h1>创建跳转链接只需三步</h1>
+    <p>1.在以下框内输入你要转换的原始链接</p>
+    <p><input id="code"/></p>
+    <p>2.点击下面的转换按钮</p>
+    <p><button id="jump" Onclick="jumpurl()">转换</button></p>
+    <p>3.从框内复制跳转链接并粘贴在你想要的地方</p>
+    <p><input id="url" readonly/><button Onclick="copy()">复制</button></noscript></p>
+    <hr/>
+    <p>作者对此项目的付出没有任何收入，请珍惜作者的劳动成果。</p>
+    <p>您点击转换按钮意味着您默许以下内容：您保证不生成违反当地法律的链接，否则一切责任由您承担。</p>
+    <noscript><hr/><p>你的浏览器不支持Javascript，请升级浏览器。</p>
+  </body>
+</html>
