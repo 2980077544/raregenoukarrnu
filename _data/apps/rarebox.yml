@@ -1,12 +1,18 @@
-- ver: 1.1
-  content: |
-    tdst
-  download:
-    - name: 官方
-    - url: http://test.com
-- ver: 1.0
-  content: |
-     tdst
-  download:
-    - name: 官方
-    - url: http://test.com
+name: rarebox
+list:
+  - ver: 1.1
+    content: |
+       tdst
+    date: 23.6.6
+    download:
+       - name: 官方
+         url: http://test.com
+       - name: 官方2
+         url: http://test.com
+  - ver: 1.0
+    content: |
+       tdst
+    date: 23.5.6
+    download:
+       - name: 官方
+         url: http://test.com
