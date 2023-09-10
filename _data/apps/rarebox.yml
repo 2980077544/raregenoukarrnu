@@ -1,12 +1,12 @@
 - ver: 1.1
-   content: |
-     tdst
-   download:
-     - name: 官方
-     - url: http://test.com
+  content: |
+    tdst
+  download:
+    - name: 官方
+    - url: http://test.com
 - ver: 1.0
-   content: |
+  content: |
      tdst
-   download:
-     - name: 官方
-     - url: http://test.com
+  download:
+    - name: 官方
+    - url: http://test.com
