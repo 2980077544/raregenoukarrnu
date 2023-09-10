@@ -1,7 +1,6 @@
 {% if include.name %}
-{{ include.name }}
-{% for app in site.data.apps %}
-{{ app.name }}
+{% for appk in site.data.apps %}
+{% assign app = appk[1] %}
 {% if include.name == app.name %}
 <div class="mdui-table-fluid">
   <table class="mdui-table mdui-table-hoverable">
