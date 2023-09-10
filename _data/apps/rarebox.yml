@@ -1,18 +1,17 @@
 name: rarebox
 list:
-  - ver: 1.1
+  - ver: 2.6.0暑假版
     content: |
-       tdst
-    date: 23.6.6
+       修复一些bug，给其他应用准备了接口，优化了UI。
+    date: 2023-07-18
     download:
-       - name: 官方
-         url: http://test.com
-       - name: 官方2
-         url: http://test.com
-  - ver: 1.0
+       - name: 官方源
+         url: http://mobvoi-search-public.mobvoi.com/mobvoi-apk/awch/com.yuanwow.adb_18_wear_all_715fb03eacddb11e9e25e120eca96b7a.apk
+  - ver: 2.5.1儿童节版
     content: |
-       tdst
-    date: 23.5.6
+       修复了一些bug
+    date: 2023-06-03
     download:
-       - name: 官方
-         url: http://test.com
+       - name: 官方源
+         url: http://mobvoi-search-public.mobvoi.com/mobvoi-apk/awch/com.yuanwow.adb_17_wear_all_b1506c454d83bb0be13abb045d10b1cb.apk
+  - ver: 更早的版本不再提供

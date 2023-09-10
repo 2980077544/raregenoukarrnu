@@ -3,17 +3,15 @@ list:
   - ver: 1.0
     content: |
        第一个版本
-    date: 23.6.6
+    date: 忘了
     download:
        - name: 官方源
-         url: /rarestore.apk
+         url: /store.apk
        - name: 镜像1
          url: http://s.downpp.com/apk13/raresd_v1.0_2265.com.apk
        - name: 镜像2
          url: http://hcm2q.apkdd.qpb187.com/pa3/raresdapp1055348.apk
        - name: 镜像3
-         url: https://upload.pinan1688.com/app/202308/10/rsd_309554.apk
-       - name: 镜像4
          url: https://cr10.197946.com/com.yuanwow.rarestore.apk
-       - name: 镜像5
+       - name: 镜像4
          url: http://y8ld.daanche.com/com.yuanwow.rarestore.apk
