@@ -1,0 +1,32 @@
+{% if include.name %}
+{% for app in site.data.apps %}
+{% if include.name == app.name %}
+<div class="mdui-table-fluid">
+  <table class="mdui-table mdui-table-hoverable">
+    <thead>
+      <tr>
+        <th>版本</th>
+        <th>更新日志</th>
+        <th>更新日期</th>
+        <th>下载</th>
+      </tr>
+    </thead>
+    {% for ver in app.list %}
+    <tbody>
+      <tr>
+        <td>{{ ver.version }}</td>
+        <td>{{ ver.content }}</td>
+        <td>{{ ver.date }}</td>
+        <td>
+          {% for verd in ver.download %}
+          <a class="mdui-btn mdui-color-theme-accent mdui-ripple" href="{{ verd.url }}">{{ verd.name }}</a>
+          {% endfor %}
+        </td>
+      </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% endif %}
+{% endfor %}
+{% if include.name %}
