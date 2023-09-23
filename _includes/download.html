@@ -1,4 +1,5 @@
 {% if include.name %}
+
 {% for appk in site.data.apps %}
 {% assign app = appk[1] %}
 {% if include.name == app.name %}
@@ -20,7 +21,7 @@
         <td>{{ ver.date }}</td>
         <td>
           {% for verd in ver.download %}
-          <a class="mdui-btn mdui-color-theme-accent mdui-ripple" href="{{ verd.url }}">{{ verd.name }}</a>
+          <a class="mdui-btn mdui-color-theme-accent mdui-ripple" onclick="if($('#agreement1').prop('checked'))return true;mdui.snackbar('请先勾选下方复选框。');return false;" href="{{ verd.url }}">{{ verd.name }}</a>
           {% endfor %}
         </td>
       </tr>
@@ -30,4 +31,9 @@
 </div>
 {% endif %}
 {% endfor %}
+  <label class="mdui-checkbox">
+    <input id="agreement1" type="checkbox"/>
+    <i class="mdui-checkbox-icon"></i>
+    我已阅读，完全理解并同意<a href="/eula/">EULA</a>和<a href="/privacy/">隐私条款</a>
+  </label>
 {% endif %}

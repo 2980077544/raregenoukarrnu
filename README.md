@@ -36,24 +36,23 @@
 * [Rare浏览器详情页](https://rare.genouka.rr.nu/rarebrowser) <i class="mdui-icon material-icons">watch</i><i class="mdui-icon material-icons">android</i><i class="mdui-icon material-icons">phone_android</i>
   > 手表上好用的浏览器
 
-* [Rare翻译详情页](https://rare.genouka.rr.nu/rarefanyi/) <i class="mdui-icon material-icons">watch</i><i class="mdui-icon material-icons">android</i><i class="mdui-icon material-icons">phone_android</i>
-  > 手表上简单快速的翻译软件
-
-* ~~Rare小说~~（正在制作中，鸽子精了，别催，催了也没用）
-  > 手表上的在线/离线小说阅读器
-
-* ~~Rare视频~~（快了快了，容我再鸽一会）
+* ~~Rare播放器~~（容我再鸽一会，在修最后几个bug了）
   > 力争打造手表上最棒的视频播放器
 
 * [Rare商店详情页](https://rare.genouka.rr.nu/rareshop/) <i class="mdui-icon material-icons">watch</i><i class="mdui-icon material-icons">android</i><i class="mdui-icon material-icons">phone_android</i>
-  > 手表上下载应用的新兴应用商店。<span style="color:green">已经开放下载了！</span>
-
-* [RareClean详情页](https://rare.genouka.rr.nu/rareclean/) <i class="mdui-icon material-icons">watch</i><i class="mdui-icon material-icons">android</i><i class="mdui-icon material-icons">phone_android</i>
-  > 超级好用的释放手表后台和空间的软件！让低性能的手表使用起来瞬间轻松。
+  > 手表上下载应用的新兴应用商店，支持WearOS安装（需RareBox）。<span style="color:green">现在已经开放下载了！</span>
 
 ## 其他软件
 * [质感文件(Wear)](http://mobvoi-search-public.mobvoi.com/mobvoi-apk/awch/wear.android.files_31_wear_x86_64,x86,armeabi-v7a,arm64-v8a_16b29cf1636d8680ae956af1da05346a.apk) <i class="mdui-icon material-icons">watch</i><i class="mdui-icon material-icons">android</i><i class="mdui-icon material-icons">phone_android</i>
  > 不是Rare计划的一部分，但它是Rare计划官方最推荐在手表上使用的开源文件管理器
+
+## 归档
+
+* [RareClean详情页](https://rare.genouka.rr.nu/rareclean/) <i class="mdui-icon material-icons">watch</i><i class="mdui-icon material-icons">android</i><i class="mdui-icon material-icons">phone_android</i>
+  > 清理手表运行内存。现已废弃，仅供存档。
+
+* [Rare翻译详情页](https://rare.genouka.rr.nu/rarefanyi/) <i class="mdui-icon material-icons">watch</i><i class="mdui-icon material-icons">android</i><i class="mdui-icon material-icons">phone_android</i>
+  > 手表上简单快速的翻译软件。现已废弃，仅供存档。
 
 ## 捐助
 * 微信赞赏码（应该就在下面不远处）
