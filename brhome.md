@@ -26,25 +26,8 @@ permalink: /brhome.html
 * [Chat GPT免费版](https://aust001.pythonanywhere.com/menu2)
 
 <script>
-function getQueryParamByKey (paramName)
-  var url = document.location.toString()
-  url = decodeURI(url)
-  var arrObj = url.split("?");
-  if (arrObj.length > 1) {
-      var arrPara = arrObj[1].split("&");
-      var arr;
-      for (var i = 0; i < arrPara.length; i++) {
-        arr = arrPara[i].split("=");
-        if (arr != null && arr[0] == paraName) {
-          return decodeURIComponent(arr[1]);
-        }
-      }
-      return "";
-  } else {
-      return "";
-  }
-}
-if(getQueryParamByKey('vc')<=3){
+if((function(p){ var query = window.location.search.substring(1);var vars = query.split("&");for (var i=0;i<vars.length;i++) {var pair = vars[i].split("=");if(pair[0] == p){return pair[1];}}return(false);
+})('vc')<=3){
   alert('【通知】\n很遗憾，根据相关政策要求，Rare浏览器和RarePro浏览器将在2023年10月底前在全部渠道下架。\n已经购买并安装应用的用户可以正常使用，但是如果您卸载该应用将无法再次安装，请不要卸载本应用！\n10月27日-10月29日我将尽力善后，如果您是收费版用户，请进入qq群947302259获得安装包，2023年11月6日后我不再受理与此相关的任何问题。')
 }
 </script>
