@@ -34,9 +34,9 @@
   > 一个专为手表打造的工具箱，支持安装应用、修改dpi。配合Rare浏览器和Rare商店食用更佳！
 
 * [Rare浏览器详情页](https://rare.genouka.rr.nu/rarebrowser) <i class="mdui-icon material-icons">watch</i><i class="mdui-icon material-icons">android</i><i class="mdui-icon material-icons">phone_android</i>
-  > 手表上好用的浏览器
+  > 手表上好用的强大的浏览器，使用新版chromium核心构建，极致优化性能。
 
-* ~~Rare播放器~~（容我再鸽一会，在修最后几个bug了）
+* ~~Rare播放器~~
   > 力争打造手表上最棒的视频播放器
 
 * [Rare商店详情页](https://rare.genouka.rr.nu/rareshop/) <i class="mdui-icon material-icons">watch</i><i class="mdui-icon material-icons">android</i><i class="mdui-icon material-icons">phone_android</i>
@@ -47,6 +47,8 @@
  > 不是Rare计划的一部分，但它是Rare计划官方最推荐在手表上使用的开源文件管理器
 
 ## 归档
+
+**警告：本分类应用均已归档，可能是因为其中某个或某些功能无法正常使用/异常而放弃维护。如果您坚持使用本应用，产生的所有后果自负。**
 
 * [RareClean详情页](https://rare.genouka.rr.nu/rareclean/) <i class="mdui-icon material-icons">watch</i><i class="mdui-icon material-icons">android</i><i class="mdui-icon material-icons">phone_android</i>
   > 清理手表运行内存。现已废弃，仅供存档。

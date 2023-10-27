@@ -3,6 +3,9 @@ description: RareBox开发者接入指南
 permalink: /rareboxdeveloper/
 ---
 # RareBox开发者接入指南
+
+纰漏较多，请以Java代码为准！
+
 ## 0.提醒
 点击上面的目录查看对应编程语言接入教程！
 
@@ -111,7 +114,7 @@ end)
 end
 ```
 
-### iApp/裕语言
+### iApp3/裕语言
 自己建一个mjava文件，把下面代码复制进去（自己import一下包）
 ```java
     public void InstallByRareBox(final Activity context,final String filepath){

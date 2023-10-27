@@ -1,0 +1,23 @@
+name: rarebrowser
+list:
+  - ver: 2.6
+    content: |
+       视频解析和播放，目前仅限收费版
+    date: 2023-09-04
+    download: []
+  - ver: 2.5.1
+    content: |
+       添加收藏功能，最低Android5.1
+    date: 2023-08-18
+    download:
+       - name: 官方源
+         url: http://mobvoi-search-public.mobvoi.com/mobvoi-apk/awch/com.yuanwow.rarebrowser_13_wear_armeabi-v7a_4b9f86e8063ef91578a9ba8af2aec48e.apk
+         md5: 4b9f86e8063ef91578a9ba8af2aec48e
+  - ver: 1.2
+    content: |
+       经典版，最低Android4.4
+    date: 2023-04-15
+    download:
+       - name: 官方源
+         url: http://mobvoi-search-public.mobvoi.com/mobvoi-apk/awch/com.yuanwow.rarebrowser_4_wear_armeabi-v7a_61fdf4b5c7f742f0d4b0fe360d63715a.apk
+         md5: 61fdf4b5c7f742f0d4b0fe360d63715a
