@@ -1,5 +1,10 @@
 name: rarebrowser
 list:
+  - ver: 2.7.1
+    content: |
+       适配更多手表、已知问题修复，目前仅限收费版
+    date: 2023-09-04
+    download: []
   - ver: 2.6
     content: |
        视频解析和播放，目前仅限收费版
