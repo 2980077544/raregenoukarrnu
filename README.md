@@ -48,7 +48,7 @@
 
 ## 归档
 
-**警告：本分类应用均已归档，可能是因为其中某个或某些功能无法正常使用/异常而放弃维护。如果您坚持使用本应用，产生的所有后果自负。**
+**警告：本分类应用均已归档，可能是因为其中某个或某些功能无法正常使用/异常而放弃维护。如果您坚持使用归档应用，产生的所有后果自负。**
 
 * [RareClean详情页](https://rare.genouka.rr.nu/rareclean/) <i class="mdui-icon material-icons">watch</i><i class="mdui-icon material-icons">android</i><i class="mdui-icon material-icons">phone_android</i>
   > 清理手表运行内存。现已废弃，仅供存档。

@@ -1,5 +1,14 @@
 name: rarebox
 list:
+  - ver: 3.0 Final
+    content: |
+        - 修复含空格文件名无法安装的问题
+        - 修改部分UI界面
+        - 增加帮助文档
+    date: 2023-07-18
+    download:
+       - name: 官方源
+         url: http://mobvoi-search-public.mobvoi.com/mobvoi-apk/awch/com.yuanwow.adb_19_wear_all_ceb65fad21d775ed1d15cd5918cad2b6.apk
   - ver: 2.6.0暑假版
     content: |
        修复一些bug，给其他应用准备了接口，优化了UI。

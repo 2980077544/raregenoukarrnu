@@ -1,6 +1,7 @@
 ---
 description: EULA
 permalink: /eula/
+disableToc: true
 ---
 # 最终用户许可协议（EULA）
 

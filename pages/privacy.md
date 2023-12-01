@@ -1,6 +1,7 @@
 ---
 description: 隐私保护协议
 permalink: /privacy/
+disableToc: true
 ---
 # 隐私保护协议
 
