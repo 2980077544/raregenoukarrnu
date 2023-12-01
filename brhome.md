@@ -13,7 +13,7 @@ permalink: /brhome.html
 (以下链接与作者无任何利益关系，如有任何问题请联系我删除)
 * [微博](https://weibo.com/)
 * [网易云](https://music.163.com/)
-* [文字搜图/以图搜图](https://ascii2d.net/)
+* [Yandex搜图](https://yandex.com/images/touch/)
 * [文件轻松传](https://easychuan.cn/)
 * [临时信息交换](https://typecho.in/)
 * [Chat GPT免费版](https://aust001.pythonanywhere.com/menu2)
@@ -22,6 +22,6 @@ permalink: /brhome.html
 var a=(function(p){ var query = window.location.search.substring(1);var vars = query.split("&");for (var i=0;i<vars.length;i++) {var pair = vars[i].split("=");if(pair[0] == p){return pair[1];}}return(false);
 })('vc');
 if(a==""||a<=3){
-  alert('【通知】\n很遗憾，RarePro浏览器(Rare浏览器)已在小问商店下架，如需购买请直接联系开发者(QQ 2980077544，请勿骚扰，一般周末在线)。\n目前最新版本为2.7.1版本，请及时更新至最新版本！最新版本默认你已阅读过本提示，不再弹出本窗口。\n已经通过小问商店购买并安装应用的用户可以正常使用，如果您卸载将无法再次通过小问商店安装，最好不要卸载本应用！')
+  alert('【23-12-01】\nRarePro浏览器已重新上架小问商店，你也可以联系开发者获取应用（QQ2980077544，仅周六在线，非必要勿加，广告勿扰），\n目前浏览器最新版本为2.8.0版本，增加超级多的功能，请及时更新至最新版本！最新版本默认你已阅读过本提示，不再弹出本窗口。')
 }
 </script>

@@ -1,3 +1,6 @@
+**本网站最后更新于2023年12月1日。**
+
+**为提高访问速度，本网站使用了特别缓存技术，如果要查看最新的页面建议刷新至少两次！**
 
 **☀️ 打造手表系列，共建手表生态！☀️**
 
@@ -42,9 +45,15 @@
 * [Rare商店详情页](https://rare.genouka.rr.nu/rareshop/) <i class="mdui-icon material-icons">watch</i><i class="mdui-icon material-icons">android</i><i class="mdui-icon material-icons">phone_android</i>
   > 手表上下载应用的新兴应用商店，支持WearOS安装（需RareBox）。<span style="color:green">现在已经开放下载了！</span>
 
-## 其他软件
+## 非本系列软件
+
+以下应用不属于Rare计划，但是是GenOuka推荐的应用！
+
 * [质感文件(Wear)](http://mobvoi-search-public.mobvoi.com/mobvoi-apk/awch/wear.android.files_31_wear_x86_64,x86,armeabi-v7a,arm64-v8a_16b29cf1636d8680ae956af1da05346a.apk) <i class="mdui-icon material-icons">watch</i><i class="mdui-icon material-icons">android</i><i class="mdui-icon material-icons">phone_android</i>
  > 不是Rare计划的一部分，但它是Rare计划官方最推荐在手表上使用的开源文件管理器
+
+* [凉腕播放器](http://aliangmaker.top/com.media/aliang-media.apk)
+ > 不是Rare计划的一部分，但它是Rare计划官方最推荐在手表上使用的免费视频播放器
 
 ## 归档
 
