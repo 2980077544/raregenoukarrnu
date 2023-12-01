@@ -43,9 +43,9 @@
       {{ content }}
 
       <hr>
-      <h1>无偿捐赠</h1>
+      <h2>无偿捐赠</h2>
       <img src="https://s3-wasabi-ap-northeast-1-tokyo.kmy.lol/2023/07/29/2c31c777e7658a4f3c7595b68b45a637.png" alt="什么？你说赞赏二维码没了？我不造啊，图床崩了也不是我能解决的。。。" border="0">
-      <h1>友情链接</h1>
+      <h2>友情链接</h2>
       {% for item in site.links %}
           {% if page.url == item.link %}
               <p><a href="{{ item.link }}">
@@ -68,7 +68,7 @@
     
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
 <script type="text/javascript">
-{% if page.disableToc != nil %}
+{% if page.disableToc == nil %}
 $(document).ready(function() {
     $('#toc').toc();
 });
