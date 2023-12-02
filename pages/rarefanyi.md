@@ -36,3 +36,7 @@ Rare翻译是适用于大多数穿戴设备的联网翻译软件。
 
 ## 联系方式
 [点击查看](/lianxi)
+
+## 以下是实验：
+
+<form action="https://translator.ai.xiaomi.com/"><input name="text"><input type="submit"></form>
