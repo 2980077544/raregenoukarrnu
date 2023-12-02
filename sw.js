@@ -12,7 +12,7 @@ const HOSTNAME_WHITELIST = [
   self.location.hostname,
   "cdnjs.cloudflare.com",
   "unpkg.com",
-  "unpkg.zhimg com",
+  "unpkg.zhimg.com",
 ]
 
 
