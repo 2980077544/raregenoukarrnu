@@ -6,13 +6,13 @@
  * Register service worker.
  * ========================================================== */
 
-const PRECACHE = 'precache-v1';
+const PRECACHE = 'precache-v2';
 const RUNTIME = 'runtime';
 const HOSTNAME_WHITELIST = [
   self.location.hostname,
-  "huangxuan.me",
-  "yanshuo.io",
-  "cdnjs.cloudflare.com"
+  "cdnjs.cloudflare.com",
+  "unpkg.com",
+  "unpkg.zhimg com",
 ]
 
 

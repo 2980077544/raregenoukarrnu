@@ -67,6 +67,33 @@
     </footer>
     
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+<script src="https://unpkg.zhimg.com/mdui@1.0.2/dist/js/mdui.min.js"></script>
+<script type="text/javascript">
+    if(navigator.serviceWorker){
+        navigator.serviceWorker
+            .register('/sw.js')
+            .then((registration) => {console.log('Service Worker Registered. ', registration)})
+            .catch((error) => {console.log('ServiceWorker registration failed: ', error)})
+        navigator.serviceWorker.addEventListener('controllerchange', () => {
+mdui.dialog({
+  title: '新版页面已经就绪',
+  content: '当前加载的是页面缓存，新版本页面已就绪，是否加载？',
+  buttons: [
+    {
+      text: '否'
+    },
+    {
+      text: '是',
+      onClick: function(inst){
+        window.location.reload();
+      }
+    }
+  ]
+});
+      
+      })
+    }
+</script>
 <script type="text/javascript">
 {% if page.disableToc == nil %}
 $(document).ready(function() {
@@ -74,17 +101,6 @@ $(document).ready(function() {
 });
 {% endif %}
 </script>
-
-<script type="text/javascript">
-    if(navigator.serviceWorker){
-        navigator.serviceWorker
-            .register('/sw.js')
-            .then((registration) => {console.log('Service Worker Registered. ', registration)})
-            .catch((error) => {console.log('ServiceWorker registration failed: ', error)})
-    }
-</script>
-<script src="https://unpkg.zhimg.com/mdui@1.0.2/dist/js/mdui.min.js"></script>
-
   </body>
 
 </html>
