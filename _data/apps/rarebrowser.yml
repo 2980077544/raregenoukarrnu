@@ -3,13 +3,13 @@ list:
   - ver: 2.8.1
     content: |
        适配并支持更多手表，解决一些已知问题。
-       使用华为手表请使用V1V2签名特供版。
+       V2签名特供版是为部分不支持v3签名应用的手表特供的，如无必要请勿使用，功能与原版相同。(2023-12-13更新特供版）。
        本栏下载为免费版。
     date: 2023-12-16
     download:
        - name: 标准版
          url: /apks/2.8.1-freever-release.apk
-       - name: V1V2签名特供版
+       - name: V2签名特供版
          url: /apks/2.8.1-freever-v1v2-release.apk
   - ver: 2.8.0
     content: |
