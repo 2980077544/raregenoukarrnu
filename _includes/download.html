@@ -17,11 +17,13 @@
     {% for ver in app.list %}
       <tr>
         <td>{{ ver.ver }}</td>
-        <td>{{ ver.content }}</td>
+        <td><details>
+  <summary>点击展开</summary>
+  A keyboard.<pre>{{ ver.content }}</pre></details></td>
         <td>{{ ver.date }}</td>
         <td>
           {% for verd in ver.download %}
-          <a class="mdui-btn mdui-color-theme-accent mdui-ripple" onclick="if($('#agreement1').prop('checked'))return true;mdui.snackbar('请先勾选下方复选框。');return false;" href="{{ verd.url }}">{{ verd.name }}</a>
+          <a class="mdui-btn mdui-color-theme-accent mdui-ripple" onclick="if($('#agreement1').prop('checked'))return true;mdui.snackbar('请先勾选下载列表下方复选框同意。');return false;" href="{{ verd.url }}">{{ verd.name }}</a>
           {% endfor %}
         </td>
       </tr>
