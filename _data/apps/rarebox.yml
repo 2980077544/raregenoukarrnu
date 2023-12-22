@@ -6,13 +6,11 @@ list:
         - 修改部分UI界面
         - 增加帮助文档
         
-        V2签名特供版是为部分不支持v3签名应用的手表特供的，如无必要请勿使用，功能与原版相同。(2023-12-13更新特供版）
+        V2签名特供版是为部分不支持v3签名应用的手表特供的，如无必要请勿使用，功能与原版相同。(2023-12-13更新特供版,2023-12-22删除特供版）
     date: 2023-12-16
     download:
        - name: 标准版
          url: http://mobvoi-search-public.mobvoi.com/mobvoi-apk/awch/com.yuanwow.adb_19_wear_all_ceb65fad21d775ed1d15cd5918cad2b6.apk
-       - name: V2签名特供版
-         url: /apks/rarebox-3.0final-v1v2-release.apk
   - ver: 2.6.0暑假版
     content: |
        修复一些bug，给其他应用准备了接口，优化了UI。
