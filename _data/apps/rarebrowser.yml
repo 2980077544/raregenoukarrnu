@@ -9,7 +9,7 @@ list:
     download:
        - name: 标准版
          url: /apks/2.8.1-freever-release.apk
-       - name: V2签名特供版
+       - name: V2签名特供版(修正)
          url: /apks/2.8.1-freever-v2-release.apk
   - ver: 2.8.0
     content: |
