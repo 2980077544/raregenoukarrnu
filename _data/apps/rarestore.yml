@@ -2,12 +2,8 @@ name: rarestore
 list:
   - ver: 1.2
     content: |
-       最新版本
-    date: 2023-12-01
+       最新版本（后端服务器暂停续费，计划以后恢复）
+    date: 2023-12-31
     download:
        - name: 官方源
          url: /store.apk
-       - name: 镜像1
-         url: http://s.downpp.com/apk13/raresd_v1.0_2265.com.apk
-       - name: 镜像2
-         url: http://y8ld.daanche.com/com.yuanwow.rarestore.apk

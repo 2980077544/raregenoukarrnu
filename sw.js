@@ -4,9 +4,10 @@
  * Copyright 2016 @huxpro
  * Licensed under Apache 2.0 
  * Register service worker.
+ * 2023 @GenOuka
  * ========================================================== */
 
-const PRECACHE = 'precache-v2';
+const PRECACHE = 'precache-v2.1';
 const RUNTIME = 'runtime';
 const HOSTNAME_WHITELIST = [
   self.location.hostname,

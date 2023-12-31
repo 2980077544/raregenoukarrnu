@@ -3,7 +3,7 @@
 {% for appk in site.data.apps %}
 {% assign app = appk[1] %}
 {% if include.name == app.name %}
-<a href="https://www.123pan.com/s/WxHjVv-1bU0A.html">如果下列文件无法下载请点击这里使用123网盘(备份源)下载</a>
+<a href="https://www.123pan.com/s/WxHjVv-1bU0A.html"><b>如果下列文件无法下载请点击这里使用123网盘(备份源)下载</b></a>
 <div class="mdui-table-fluid">
   <table class="mdui-table mdui-table-hoverable">
     <thead>
@@ -24,7 +24,7 @@
         <td>{{ ver.date }}</td>
         <td>
           {% for verd in ver.download %}
-          <a class="mdui-btn mdui-color-theme-accent mdui-ripple" onclick="if($('#agreement1').prop('checked'))return true;mdui.snackbar('请先勾选下载列表下方复选框同意。');return false;" href="{{ verd.url }}">{{ verd.name }}</a>
+          <a class="mdui-btn mdui-color-theme-accent mdui-ripple" onclick="if($('#agreement1').prop('checked'))return true;mdui.snackbar('请先勾选下载列表下方复选框同意相关内容。');return false;" href="{{ verd.url }}">{{ verd.name }}</a>
           {% endfor %}
         </td>
       </tr>
