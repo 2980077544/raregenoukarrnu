@@ -1,4 +1,4 @@
-**本网站最后更新于2024年1月19日。**
+**本网站最后更新于2024年2月5日。**
 
 **为提高访问速度，本网站使用了特别缓存技术，如果要查看最新的页面建议刷新至少两次！**
 
@@ -42,8 +42,8 @@
 * ~~Rare播放器~~
   > 力争打造手表上最棒的视频播放器
 
-* [Rare商店详情页](https://rare.genouka.rr.nu/rareshop/) <i class="mdui-icon material-icons">watch</i><i class="mdui-icon material-icons">android</i><i class="mdui-icon material-icons">phone_android</i>
-  > 手表上下载应用的新兴应用商店，支持WearOS安装（需RareBox）。<span style="color:green">现在已经开放下载了！</span>
+* [莘应用（原Rare商店）详情页](https://edsc.top/) <i class="mdui-icon material-icons">watch</i><i class="mdui-icon material-icons">android</i><i class="mdui-icon material-icons">phone_android</i>
+  > 手表上下载应用的新兴应用商店，支持WearOS安装（需RareBox）。<span style="color:green">全新升级！</span>
 
 ## 非本系列软件
 
