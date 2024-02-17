@@ -1,5 +1,11 @@
 name: rarebrowser
 list:
+  - ver: 2.9.1.2
+    content: |
+       修复大批bug
+    download:
+       - name: 仅洋葱商店可下载
+         url: ###
   - ver: 2.9.0
     content: |
        特供版专用于华为儿童手表，无需重新签名。
