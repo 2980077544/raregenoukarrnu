@@ -37,14 +37,12 @@
         {% endfor %}
         </ul>
       </header>
-      <section>
+      <section mdui-typo>
 <div id="toc"></div>
 
       {{ content }}
 
       <hr>
-      
-      <p>赞助二维码不放了</p>
       
       <h2>友情链接</h2>
       {% for item in site.links %}
@@ -75,24 +73,6 @@
             .register('/sw.js')
             .then((registration) => {console.log('Service Worker Registered. ', registration)})
             .catch((error) => {console.log('ServiceWorker registration failed: ', error)})
-        navigator.serviceWorker.addEventListener('controllerchange', () => {
-mdui.dialog({
-  title: '新页面已经就绪',
-  content: '当前加载的是页面缓存，新页面已就绪，是否加载？',
-  buttons: [
-    {
-      text: '否'
-    },
-    {
-      text: '是',
-      onClick: function(inst){
-        window.location.reload();
-      }
-    }
-  ]
-});
-      
-      })
     }
 </script>
 <script type="text/javascript">

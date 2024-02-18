@@ -1,4 +1,4 @@
-**本网站最后更新于2024年2月17日。**
+**本网站最后更新于2024年2月18日。**
 
 **为提高访问速度，本网站使用了特别缓存技术，如果要查看最新的页面建议刷新至少两次！**
 
@@ -43,7 +43,7 @@
   > 力争打造手表上最棒的视频播放器
 
 * [莘应用（原Rare商店）详情页](https://edsc.top/) <i class="mdui-icon material-icons">watch</i><i class="mdui-icon material-icons">android</i><i class="mdui-icon material-icons">phone_android</i>
-  > 手表上下载应用的新兴应用商店，支持WearOS安装（需RareBox）。<span style="color:green">全新升级！</span>
+  > 手表上下载应用的新兴应用商店，支持WearOS安装。<span style="color:green">全新升级！</span>
 
 ## 非本系列软件
 
@@ -66,7 +66,6 @@
   > 手表上简单快速的翻译软件。现已废弃，仅供存档。
 
 ## 捐助
-* 微信赞赏码（应该就在下面不远处）
-* 购买作者开发的收费软件。
+现在不接受无偿捐赠，也请勿将购买RarePro浏览器视作捐赠行为。
 
 **最后，我不会给网站任何页面加广告（如有，就是浏览器和/或运营商劫持，与我无关），对广告深恶痛绝的感受我也不是没有体验过。**
