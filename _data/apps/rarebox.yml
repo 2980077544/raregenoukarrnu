@@ -1,6 +1,6 @@
 name: rarebox
 list:
-- ver: 3.3
+  - ver: 3.3
     content: |
         - 支持华为手表安装
         - 修复很多已知问题
