@@ -1,4 +1,4 @@
-**本网站最后更新于2024年2月18日。**
+**本网站最后更新于2024年3月2日。**
 
 **为提高访问速度，本网站使用了特别缓存技术，如果要查看最新的页面建议刷新至少两次！**
 
@@ -22,15 +22,15 @@
 ## 本系列软件
 图标含义说明
 
-<i class="mdui-icon material-icons">watch</i>兼容WearOS手表/鸿蒙手表
+<i class="mdui-icon material-icons">watch</i>兼容WearOS手表/华为手表
 
-<i class="mdui-icon material-icons">android</i>兼容Android手表
+<i class="mdui-icon material-icons">android</i>兼容Android/类Android手表
 
-<i class="mdui-icon material-icons">phone_android</i>兼容Android手机
+<i class="mdui-icon material-icons">phone_android</i>兼容Android/类Android/鸿蒙手机
 
 <i class="mdui-icon material-icons">desktop_windows</i>兼容Windows系统
 
-<i class="mdui-icon material-icons">warning</i>可能具有一定的操作危险性
+<i class="mdui-icon material-icons">warning</i>操作具有一定的危险性
 
 
 * [RareBox详情页](/rarebox) <i class="mdui-icon material-icons">watch</i><i class="mdui-icon material-icons">android</i><i class="mdui-icon material-icons">phone_android</i><i class="mdui-icon material-icons">warning</i>

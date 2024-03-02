@@ -4,8 +4,8 @@ list:
     content: |
        修复大批bug
     download:
-       - name: 仅洋葱商店可下载
-         url: ###
+       - name: 标准版
+         url: https://wxpre5px7aad2izszl6psbf43jblu3s3tphjtbsunydguzi3xbkq.ar-io.net/td8Sdff4AD0jMsr8-QS82kK6blubzpmGVG4GamUbuFU
   - ver: 2.9.0
     content: |
        特供版专用于华为儿童手表，无需重新签名。
