@@ -10,31 +10,30 @@
     <i class="mdui-checkbox-icon"></i>
     我已阅读，完全理解并同意本页面政策（如果有）、免责声明（如果有）、<a href="/eula/">EULA</a>和<a href="/privacy/">隐私条款</a>
   </label>
-  
+  <div class="mdui-panel" mdui-panel>
     {% for ver in app.list %}
-<div class="mdui-panel" mdui-panel>
   <div class="mdui-panel-item">
         <div class="mdui-panel-item-header">
             <div class="mdui-panel-item-title">{{ ver.ver }}</div>
             <div class="mdui-panel-item-summary">{{ ver.date }}</div>
             <i class="mdui-panel-item-arrow mdui-icon material-icons">keyboard_arrow_down</i>
         </div>
+        
+<div class="mdui-panel-item-body">
         <h5>详情</h5>
-        <pre>{{ ver.content }}</pre>
+        <pre>{{ ver.content | markdownify }}</pre>
         <b>本版本发布于：{{ ver.date }}</b>
         <p>注意：下载后即意味着你已阅读，完全理解并同意本页面政策（如果有）、免责声明（如果有）和隐私条款。</p>
-        <ul class="mdui-list">
+        <div class="mdui-list">
           {% for verd in ver.download %}
-          <li class="mdui-list-item mdui-ripple">
-              <i class="mdui-icon material-icons">file_download</i>
-              <a class="mdui-btn mdui-color-theme-accent mdui-ripple" onclick="if($('#agreement1').prop('checked'))return true;mdui.snackbar('请先勾选下载列表上方复选框同意相关内容。');return false;" href="{{ verd.url }}">{{ verd.name }}</a>
-          </li>
+              <a class="mdui-list-item mdui-ripple" onclick="if($('#agreement1').prop('checked'))return true;mdui.snackbar('请先勾选下载列表上方复选框同意相关内容。');return false;" href="{{ verd.url }}"><i class="mdui-icon material-icons">file_download</i>{{ verd.name }}</a>
           {% endfor %}
-        </ul>
-  </div>
+        </div>
 </div>
-    {% endfor %}
 
+  </div>
+    {% endfor %}
+</div>
 {% endif %}
 {% endfor %}
 {% endif %}
