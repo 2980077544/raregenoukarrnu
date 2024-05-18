@@ -5,7 +5,7 @@ list:
         - 支持华为手表安装
         - 修复很多已知问题
         - 修改部分UI界面
-    date: 2023-12-16
+    date: 2024-05-02
     download:
        - name: 标准版
          url: https://github.com/Genouka/RareBox/releases/download/v3.3/RareBox3.3.apk

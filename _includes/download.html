@@ -3,40 +3,38 @@
 {% for appk in site.data.apps %}
 {% assign app = appk[1] %}
 {% if include.name == app.name %}
-<a href="https://www.123pan.com/s/WxHjVv-1bU0A.html"><b>如果下列文件无法下载请点击这里使用123网盘(备份源)下载</b></a>
-<div class="mdui-table-fluid">
-  <table class="mdui-table mdui-table-hoverable">
-    <thead>
-      <tr>
-        <th>版本</th>
-        <th>更新日志</th>
-        <th>更新日期</th>
-        <th>下载</th>
-      </tr>
-    </thead>
-    <tbody>
-    {% for ver in app.list %}
-      <tr>
-        <td>{{ ver.ver }}</td>
-        <td><details>
-  <summary>展开</summary>
-  <pre>{{ ver.content }}</pre></details></td>
-        <td>{{ ver.date }}</td>
-        <td>
-          {% for verd in ver.download %}
-          <a class="mdui-btn mdui-color-theme-accent mdui-ripple" onclick="if($('#agreement1').prop('checked'))return true;mdui.snackbar('请先勾选下载列表下方复选框同意相关内容。');return false;" href="{{ verd.url }}">{{ verd.name }}</a>
-          {% endfor %}
-        </td>
-      </tr>
-    {% endfor %}
-    </tbody>
-  </table>
-</div>
-{% endif %}
-{% endfor %}
+
+<a href="https://www.123pan.com/s/WxHjVv-1bU0A.html"><b>如果下列文件无法下载请点击这里使用123网盘(备份源)下载</b></a><br>
   <label class="mdui-checkbox">
     <input id="agreement1" type="checkbox"/>
     <i class="mdui-checkbox-icon"></i>
     我已阅读，完全理解并同意本页面政策（如果有）、免责声明（如果有）、<a href="/eula/">EULA</a>和<a href="/privacy/">隐私条款</a>
   </label>
+  
+    {% for ver in app.list %}
+<div class="mdui-panel" mdui-panel>
+  <div class="mdui-panel-item">
+        <div class="mdui-panel-item-header">
+            <div class="mdui-panel-item-title">{{ ver.ver }}</div>
+            <div class="mdui-panel-item-summary">{{ ver.date }}</div>
+            <i class="mdui-panel-item-arrow mdui-icon material-icons">keyboard_arrow_down</i>
+        </div>
+        <h5>详情</h5>
+        <pre>{{ ver.content }}</pre>
+        <b>本版本发布于：{{ ver.date }}</b>
+        <p>注意：下载后即意味着你已阅读，完全理解并同意本页面政策（如果有）、免责声明（如果有）和隐私条款。</p>
+        <ul class="mdui-list">
+          {% for verd in ver.download %}
+          <li class="mdui-list-item mdui-ripple">
+              <i class="mdui-icon material-icons">file_download</i>
+              <a class="mdui-btn mdui-color-theme-accent mdui-ripple" onclick="if($('#agreement1').prop('checked'))return true;mdui.snackbar('请先勾选下载列表上方复选框同意相关内容。');return false;" href="{{ verd.url }}">{{ verd.name }}</a>
+          </li>
+          {% endfor %}
+        </ul>
+  </div>
+</div>
+    {% endfor %}
+
+{% endif %}
+{% endfor %}
 {% endif %}
