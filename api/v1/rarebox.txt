@@ -1,0 +1,8 @@
+{
+    "description":"修复已知问题\r\n添加一些强大的新功能",
+    "format":".lzma",
+    "main":"rarebox.exe",
+    "updater":"rarebox.exe",
+    "url":"https://rare.genouka.rr.nu/api/v1/",
+    "version":"0.3.0.21"
+}
