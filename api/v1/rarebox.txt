@@ -1,8 +1,8 @@
 {
-    "description":"修复已知问题\r\n添加一些强大的新功能",
+    "description":"修复已知问题\r\n添加批量发起连接功能\r\n添加自动更新功能",
     "format":".lzma",
     "main":"rarebox.exe",
     "updater":"rarebox.exe",
-    "url":"https://rare.genouka.rr.nu/api/v1/",
-    "version":"0.3.0.21"
+    "url":"http://rare.genouka.rr.nu/",
+    "version":"0.3.0.22"
 }
