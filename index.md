@@ -11,7 +11,9 @@ disableToc: true
 
 ---
 
-**本网站最后更新于2024年8月2日。**
+**本网站最后更新于2025年6月9日，域名于2025年5月下旬更换。**
+
+**我们的域名已经过渡到rare.genouka.top，请注意！其他域名同理把对应后缀换为top。**
 
 **特别注意：为提高访问速度，本网站使用了特别缓存技术，如果要查看最新的页面至少刷新两次！**
 
@@ -49,13 +51,13 @@ disableToc: true
 * [RareBox详情页](/rarebox) <i class="mdui-icon material-icons">watch</i><i class="mdui-icon material-icons">android</i><i class="mdui-icon material-icons">phone_android</i><i class="mdui-icon material-icons">warning</i>
   > 一个专为手表打造的工具箱，支持安装应用、修改dpi。配合Rare浏览器和Rare商店食用更佳！
 
-* [Rare浏览器详情页](https://rare.genouka.rr.nu/rarebrowser) <i class="mdui-icon material-icons">watch</i><i class="mdui-icon material-icons">android</i><i class="mdui-icon material-icons">phone_android</i>
+* [Rare浏览器详情页](/rarebrowser) <i class="mdui-icon material-icons">watch</i><i class="mdui-icon material-icons">android</i><i class="mdui-icon material-icons">phone_android</i>
   > 手表上好用的强大的浏览器，使用新版chromium核心构建，极致优化性能。
 
 * ~~Rare播放器~~
   > 力争打造手表上最棒的视频播放器
 
-* [莘应用（原Rare商店）详情页](https://edsc.edsq.top/) <i class="mdui-icon material-icons">watch</i><i class="mdui-icon material-icons">android</i><i class="mdui-icon material-icons">phone_android</i>
+* [合作项目：莘应用（原Rare商店）详情页](https://edsc.edsq.top/) <i class="mdui-icon material-icons">watch</i><i class="mdui-icon material-icons">android</i><i class="mdui-icon material-icons">phone_android</i>
   > 手表上下载应用的新兴应用商店，支持WearOS安装。<span style="color:green">全新升级！</span>
 
 ## 非本系列软件
@@ -72,10 +74,10 @@ disableToc: true
 
 **警告：本分类应用均已归档，可能是因为其中某个或某些功能无法正常使用/异常而放弃维护。如果您坚持使用归档应用，产生的所有后果自负。**
 
-* [RareClean详情页](https://rare.genouka.rr.nu/rareclean/) <i class="mdui-icon material-icons">watch</i><i class="mdui-icon material-icons">android</i><i class="mdui-icon material-icons">phone_android</i>
+* [RareClean详情页](/rareclean/) <i class="mdui-icon material-icons">watch</i><i class="mdui-icon material-icons">android</i><i class="mdui-icon material-icons">phone_android</i>
   > 清理手表运行内存。现已废弃，仅供存档。
 
-* [Rare翻译详情页](https://rare.genouka.rr.nu/rarefanyi/) <i class="mdui-icon material-icons">watch</i><i class="mdui-icon material-icons">android</i><i class="mdui-icon material-icons">phone_android</i>
+* [Rare翻译详情页](/rarefanyi/) <i class="mdui-icon material-icons">watch</i><i class="mdui-icon material-icons">android</i><i class="mdui-icon material-icons">phone_android</i>
   > 手表上简单快速的翻译软件。现已废弃，仅供存档。
 
 ## 捐助
