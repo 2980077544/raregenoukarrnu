@@ -4,10 +4,10 @@
  * Copyright 2016 @huxpro
  * Licensed under Apache 2.0 
  * Register service worker.
- * 2023 @GenOuka
+ * Copyright 2023-2025 @GenOuka
  * ========================================================== */
 
-const PRECACHE = 'precache-v2.1';
+const PRECACHE = 'precache-v2.2';
 const RUNTIME = 'runtime';
 const HOSTNAME_WHITELIST = [
   self.location.hostname,
@@ -81,6 +81,11 @@ self.addEventListener('install', e => {
   e.waitUntil(
     caches.open(PRECACHE).then(cache => {
       return cache.add('offline.html')
+      .then(self.skipWaiting())
+      .catch(err => console.log(err))
+    })
+    caches.open(PRECACHE).then(cache => {
+      return cache.add('lianxi.html')
       .then(self.skipWaiting())
       .catch(err => console.log(err))
     })
