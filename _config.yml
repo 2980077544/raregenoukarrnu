@@ -1,7 +1,7 @@
 title      : Rare计划官网
 lang       : zh
 description: 我们打造最棒的手表应用
-copyright  : <a href="https://icp.gov.moe/?keyword=20232880" target="_blank">萌ICP备20232880号</a> © 2023 - 2024 Genouka All Rights Reserved
+copyright  : <a href="https://icp.gov.moe/?keyword=20232880" target="_blank">萌ICP备20232880号</a> © 2023 - 2025 Genouka All Rights Reserved
 extra      : 本网站属于非盈利性质网站，不进行任何商业经营活动。
 
 nav:
@@ -17,11 +17,7 @@ links:
    link: https://edsc.edsq.top/
  - name: Yuanwow的博客
    link: https://2980077544.github.io/
- - name: 易档社区
-   link: https://edsq.top/
  - name: 莉莉云(东方狗下载站)
    link: https://cloud.lilywhite.cc/
- - name: 小高导航网
-   link: https://www.dhw22.com/
  - name: 申请友链请联系我(请先添加本站为友链)
    link: /lianxi/
